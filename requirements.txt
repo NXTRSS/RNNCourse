@@ -1,0 +1,15 @@
+# python==3.9.12
+jupyter==1.0.0
+tensorflow==2.4.1
+ipykernel==6.9.1
+nltk==3.7
+numpy==1.22.3
+spacy==3.3.0
+scikit-learn==1.0.2
+textblob==0.15.3
+#stanfordcorenlp==3.9.1.1
+matplotlib==3.5.1
+gensim==4.1.2
+pandas==1.4.2
+keras==2.9.0
+svgling==0.3.1 #pip
