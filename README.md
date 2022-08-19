@@ -1,6 +1,6 @@
-# Natural Language Processing
+# Sequences - Recurrent Neural Networks
 
-Link do repozytorium: https://github.com/NXTRSS/NLPCourse
+Link do repozytorium: https://github.com/NXTRSS/RNNCourse
 
 Poniżej przedstawiam instrukcję niezbędnych kroków do wykonania przed zajęciami
 
@@ -64,13 +64,13 @@ cd SDA/ml_nlp
 ```
 Teraz do folderu ściągnijmy pliki z GitHub potrzebne podczas zajęć
 ```bash
-git clone https://github.com/NXTRSS/NLPCourse
+git clone https://github.com/NXTRSS/RNNCourse
 ```
 *P.S. Można też wejść w dostarczony link i ściągnąć dane przez wygenerowanie archiwum .zip a następnie wypakowanie go w naszym folderze*
 ## Stworzenie środowiska python
 Jeśli ściągnięcie plików przebiegło poprawnie w naszym folderze powinien znajdować się plik *environment.yaml* i za jego pomocą stworzymy nowe środowisko pythonowe o nazwie **ml**:
 ```bash
-cd NLPCourse
+cd RNNCourse
 
 conda env create -f environment.yaml
 
@@ -83,13 +83,12 @@ Po aktywacji nowego środowiska zamiast *base* powinno być widoczne *ml* w nasz
 **Proszę pamiętać aby zawsze aktywować to środowisko po wznowieniu pracy na komputerze!**\
 Proszę wywołać poniższe linijki aby aktywować kilka dodatkowych ustawień:
 ```bash
-pip install svgling==0.3.1
 python -m ipykernel install --user --name ml_nlp --display-name "Python (ml_nlp)"
 ```
 ## Rozpoczęcie (oraz wznowienie pracy)
 Przy każdym wznowieniu pracy (ponownym odpaleniu komputera i maszyny wirtualnej) proszę wejście do odpowiedniego folderu:
 ```bash
-cd SDA/ml_nlp/NLPCourse
+cd SDA/ml_nlp/RNNCourse
 ```
  zaktywować środowisko o nazwie *ml*:
 ```bash
